@@ -62,7 +62,7 @@
           <p class="text-center"><i> A diagram of Facebook's Wav2Vec2</i></p>
         </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>1. ZH-CN to US-EN Speech to text translation</h2>
+          <h2><b>1. ZH-CN to US-EN Speech-to-Text translation</b></h2>
           <p class="lead mb-0"> - Using Facebook's Wav2Vec2 and bi-directional recurrent neural networks, I created a pipeline that would translate Chinese speech into English text. Thanks to HuggingFace and their team, I was able to use their pretrained Wav2Vec2 model that was finetuned on Zh-CN to dig deeper into this cutting-edge architecture. 
           <p class="lead mb-0"> - The Wav2Vec2 model portion is further trained on the CommonVoice dataset, using character-level embeddings for extra accuracy. This self-supervised framework of Wav2Vec2 quickly adapted to the new speech domain, and generalize well on my voice. Next the Chinese text is fed into a Bi-RNN, which was trained on 17+ hours of parallel English-Chinese Ted talks. The ultimate BLEU score of the pipeline was 11.5
           </p>
@@ -82,7 +82,7 @@
           <p class="text-center"><i> A workflow diagram from start to finish</i></p>
         </div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>2. Tweet Sentiment Analysis</h2>
+          <h2><b>2. Covid-19 Vaccine Tweet Sentiment Analysis</b></h2>
           <p class="lead mb-0"> - My team and I created a sentiment analysis model on tweets. Specifically, we analyzed the sentiment towards the vaccines at the end of December 2020. We explored various approaches, from supervised linear models, to unsupervised clustering models, to deep learning models. Ultimately, the neural networks were able to generalize the best while avoiding the overfitting problems that are commonly associated with error propagation. Then, we integrated word embeddings in our sequence-to-sequence model, while tuning our hyperparameters. </p>
           <p class="lead mb-0"> - Lastly, I designed the front end and connected it with our backend model, to accept a string of words and predict the sentiment. I chose to design the front end with Bootstrap, connected the backend with the Flask API, and deploy it on Heroku. </p>
         </p>
@@ -98,8 +98,8 @@
           <p class="text-center"><i> The front end with the ElasticSearch bar</i></p>
         </div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>3. Stock price sentiment analysis </h2>
-          <p class="lead mb-0"> - The goal of this corpus was to scrape posts from various finance-related subreddits to see if there is any correlation between the post's sentiment and the respective stock price. In addition, the corpus is searchable with Elasticserach implementation. </p>
+          <h2><b>3. FAANG/MANA Reddit corpus creation </b></h2>
+          <p class="lead mb-0"> - The goal of this corpus was to scrape posts from various finance-related subreddits to see if there is any correlation between the post's sentiment and the respective stock price. In addition, the corpus is searchable with ElasticSearch implementation. </p>
           <p class="lead mb-0"> - Scraped and annotated reddit posts regarding the FAANG and MANA stocks. (Facebook, Apple, Amazon, Netflix, Google) and (Microsoft, Apple, Netflix, Amazon). </p>
           <p class="lead mb-0"> - Annotated and tagged a small batch of posts with either the Vader sentiment, or with Mturk. Then, created a backend with Elasticsearch, and frontend with basic HTML. Lastly, we dockerized and deployed the website to be peer reviewed. </p>
         </p>
@@ -115,7 +115,7 @@
           <p class="text-center"><i>A code snippet on the left, and the interface on the right </i></p>
         </div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>4. Blackjack</h2>
+          <h2><b>4. Blackjack Game</b></h2>
           <p class="lead mb-0"> - Created a functional blackjack game, utilizing basic algorithms and data structures in Python. This project was done before my MDS program, and it demonstrated my ability to quickly learn a new skill. </p>
           <p class="lead mb-0"> - The interface takes a user’s input for how many chips they want to bet, and whether they want to hit or stand. I created the game to be like the casino, since Blackjack was what got me interested in Data Science in the first place. </p><p></p>
             <p class="lead mb-0">
